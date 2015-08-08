@@ -1,0 +1,23 @@
+{
+  "name": "'58-litres'",
+  "version": "1.0.0",
+  "description": "basic site",
+  "main": "index.js",
+  "dependencies": {
+    "photoswipe": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardLitt/things-i-carry.git"
+  },
+  "author": "Richard Littauer <richard.littauer@gmail.com> (http://burntfen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardLitt/things-i-carry/issues"
+  },
+  "homepage": "https://github.com/RichardLitt/things-i-carry"
+}
