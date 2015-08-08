@@ -1,6 +1,6 @@
 ---
 title: 58 Litres
-layout: post
+layout: default
 ---
 
 # hello world
