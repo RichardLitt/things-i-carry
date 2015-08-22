@@ -7,11 +7,10 @@ var imagemin = require('gulp-imagemin')
 // var sourcemaps = require('gulp-sourcemaps')
 // var del = require('del')
 var minimist = require('minimist')
-var sizeOf = require('image-size');
-
+var sizeOf = require('image-size')
 
 var paths = {
-  images: 'images/**/*'
+  images: '.'
 }
 
 // Use paths.images unless another folder is speficied with --src flag
@@ -32,7 +31,7 @@ gulp.task('images', function () {
     // console.log(dimensions.width, dimensions.height);
     // require('fs').writeFileSync('dist/build-date.txt', new Date());
     //
-    .pipe(gulp.dest('build/img'))
+    .pipe(gulp.dest('images/'))
 })
 
 // Rerun the task when a file changes
